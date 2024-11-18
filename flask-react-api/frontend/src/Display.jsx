@@ -15,7 +15,7 @@ function Display() {
           <button type="submit" onClick={getLatestRec}>Get Data</button>
           {latestRec !== null && (
               <div>
-              <h3>Last Record:</h3>
+              <h3>Latest Record:</h3>
               <p>{latestRec}</p>
               </div>
           )}
